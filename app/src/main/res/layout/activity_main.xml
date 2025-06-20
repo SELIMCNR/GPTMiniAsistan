@@ -1,0 +1,40 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data></data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bugünkü düşünceni yaz:"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etNote"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_launcher_foreground"
+            android:gravity="top"
+            android:hint="Örneğin: Bugün biraz kafam karışıktı..."
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:inputType="textMultiLine"
+            android:maxLines="8" />
+
+        <Button
+            android:id="@+id/btnAnalyze"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Analiz Et"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFF" />
+    </LinearLayout>
+</layout>

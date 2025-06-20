@@ -1,0 +1,43 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data></data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvSummaryTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Günlük Özeti"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#222"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/tvSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özet yükleniyor..."
+                android:textSize="16sp"
+                android:textColor="#444"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:id="@+id/tvEmotion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duygusal analiz:"
+                android:textSize="16sp"
+                android:textColor="#00796B" />
+        </LinearLayout>
+    </ScrollView>
+</layout>
